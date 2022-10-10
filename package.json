@@ -1,0 +1,19 @@
+{
+  "name": "zad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.3",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "parse-imports": "^0.0.5",
+    "typescript": "^4.4.3"
+  }
+}
