@@ -58,7 +58,6 @@ const recurrence = async (file: string, imports: any[], filePath?: string) => {
     })
 
     const dependencies = (await Promise.all(promises)).filter(e => e !== undefined);
-    console.log(dependencies);
 
     await writeFile(FILE_PATH, `\n${dependencies.join(' \n\n')}`, {
         encoding: 'utf8',
