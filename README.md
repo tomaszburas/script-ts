@@ -7,7 +7,7 @@ Problemy do rozwiązania:
 4. Dodanie feature z importowania za pomocą *.
 5. Testy.
 
-Na ten moment skrypt rekurencyjnie kopiuje i dokleja proste funkcje z kolejnych importów. 
+Na ten moment skrypt rekurencyjnie kopiuje i dokleja proste funkcje z kolejnych importów dodanych ze ścieżek absolutnych i relatywnych. 
 
 Start:
 ![Alt text](https://i.imgur.com/CFjZr7a.jpg "Optional title")
